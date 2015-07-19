@@ -1,0 +1,19 @@
+{
+    "launch_path": "/index.html",
+    "installs_allowed_from": [
+        "*"
+    ],
+    "version": "1.0.0",
+    "name": "MyGrade",
+    "description": "MyGrade app that will",
+    "developer": {
+        "name": "Anglia Ruskin University"
+    },
+    "fullscreen": "true",
+    "icons": {
+        "57": "/icon/icon-57.png",
+        "72": "/icon/icon-72.png",
+        "114": "/icon/icon-114.png",
+        "144": "/icon/icon-144.png"
+    }
+}

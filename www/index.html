@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>MyGrade SID1221647</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+</head>
+
+<body>
+    <div class="home" data-role="page" id="home">
+        <div class="main-page" data-role="content">
+            <img src="img/login.png" height="125" width="125" alt="Login">
+            <h1>Login</h1>
+            <form class="loginform">
+                <input type="text" value="" data-clear-btn="true" name="sid" id="sid" placeholder="USERNAME">
+                <input type="password" value="" data-clear-btn="true" name="password" id="password" value="" autocomplete="off" placeholder="PASSWORD">
+                
+            </form>
+            <button id="loginBtn">LOGIN</button>
+        </div>
+    </div>
+    <div class="user-profile" data-role="page" id="user-profile">
+        <div data-role="header" data-theme="b">
+            <h1 style="color:gray;">User Profile</h1>
+            <a href="#home" id="logoutBtn" data-icon="arrow-l" data-iconpos="left">Logout</a>
+        </div>
+        <h1>Welcome</h1>
+        <p class="student-name"></p>
+    </div>
+    
+  
+    <script type="text/javascript">
+    app.initialize();
+        var winHeight = $(window).height();
+        winHeight = winHeight - 32;
+        $('.main-page').css('height', winHeight);
+    </script>
+</body>
+
+</html>

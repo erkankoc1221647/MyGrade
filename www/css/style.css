@@ -1,0 +1,72 @@
+.home {
+    height: 100%;
+}
+
+.main-page,
+.user-profile {
+    background-color: #4886BF;
+}
+
+.main-page img {
+    text-align: center;
+    margin: 50px auto 0 auto;
+    display: block;
+}
+
+.main-page h1,
+.user-profile h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.user-profile p {
+    text-align: center;
+    color: #fff;
+}
+
+.main-page button {
+    margin-top: 100px !important;
+    background-color: #6D7296 !important;
+    text-align: center;
+    color: #FDFDFD !important;
+    border: none;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    padding: 20px 0 !important;
+}
+
+#password,
+#sid {
+    height: 50px;
+}
+
+.loginform .ui-corner-all {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border: none !important;
+    padding-left: 14px;
+    margin-top: 14px;
+}
+
+.invalid-password {
+    color: #fff;
+    background-color: rgb(231, 50, 50);
+    padding: 10px;
+    text-shadow: none;
+    display: none;
+}
+.student-data li {
+	color: #fff;
+	text-shadow: none;
+	float: left;
+	font-size: 12px;
+	list-style: none;
+}
+.student-data ul {
+	margin: 10px 0;
+	padding: 5px;
+	float: left;
+	width: 100%;
+}
